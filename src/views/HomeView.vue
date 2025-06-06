@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    {{ sysClock }}<br/><br/>
     <signing-modal 
       :context="signing" />
   </div>

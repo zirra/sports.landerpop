@@ -1,0 +1,38 @@
+.signup-container {
+  border-radius: 10px;
+  width: 480px;
+  border: solid 1px #c0c0c0; 
+  height: 320px;
+  min-height: 320px;
+  padding: 8px;
+}
+
+.signup-signin {
+  display: flex;
+  flex-direction: column;
+  width: 100% auto;
+  align-items: center;
+  h2 {
+    margin: 0;
+  }
+}
+
+.signup-signup {
+  display: flex;
+  flex-direction: column;
+  width: 100% auto;
+  align-items: center;
+  h2 {
+    margin: 0;
+  }
+}
+
+.signup-confirm {
+  display: flex;
+  flex-direction: column;
+  width: 100% auto;
+  align-items: center;
+  h2 {
+    margin: 0;
+  }
+}

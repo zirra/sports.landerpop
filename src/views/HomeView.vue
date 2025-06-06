@@ -1,10 +1,22 @@
 <template>
   <div class="home">
+    <signing-modal 
+      :context="signing" />
   </div>
 </template>
 
 <script>
+import SigningModal from '@/components/modals/SigningModal.vue'
 export default {
-  name: 'HomeView'
+  components: { SigningModal },
+  name: 'HomeView',
+  data () {
+    return {
+      signing: null
+    }
+  },
+  async mounted () {
+    this.signing = this.$route.query.mode
+  }
 }
 </script>
